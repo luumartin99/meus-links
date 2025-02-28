@@ -1,17 +1,16 @@
-css
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
   align-items: center;
-  height|: 100vh;
+  height: 100vh; /* Corrigido: removido o | */
 }
 
 .container {
@@ -21,18 +20,23 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-h1 { color: #333;
-    margin-bottom: 20px:
-   }
+
+h1 {
+  color: #333;
+  margin-bottom: 20px; /* Corrigido: ponto e vírgula no lugar certo */
+}
+
 ul {
   margin: 10px 0;
 }
+
 ul li a {
   text-decoration: none;
   color: #0078ff;
   font-size: 18px;
   transition: color 0.3s;
 }
+
 ul li a:hover {
   color: #0056b3;
 }
