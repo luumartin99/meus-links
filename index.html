@@ -1,22 +1,66 @@
 <!DOCTYPE html>
-<html lang:"pt-br">
-  <head>
-    
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=width=device-width, initial-scale=1.0">
-    <title>Meus Links</title>
-    
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página de Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  <body>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-    <h1>  Links para as comprinhas</h1>
-    
-    <a href="https://shopee.com.br" target="_blank">    Shopee </a>
-    <br>
-    <a href="https://www.amazon.com.br/" target="_blank">    Amazon </a>
-    <br>
-    <a href="https://www.mercadolivre.com.br/" target="_blank">    Mercado Livre </a>
-    
-  </body>
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        ul li a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meus Links Favoritos</h1>
+        <ul>
+            <li><a href="https://www.exemplo1.com" target="_blank">Link 1</a></li>
+            <li><a href="https://www.exemplo2.com" target="_blank">Link 2</a></li>
+            <li><a href="https://www.exemplo3.com" target="_blank">Link 3</a></li>
+        </ul>
+    </div>
+</body>
 </html>
